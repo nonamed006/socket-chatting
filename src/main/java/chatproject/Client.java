@@ -60,7 +60,7 @@ public class Client {
 			System.out.println("client");
 		} finally {
 			try {
-				System.out.println(socket.isClosed());
+				//System.out.println(socket.isClosed());
 				socket.close();
 			} catch (IOException e) {
 				e.printStackTrace();

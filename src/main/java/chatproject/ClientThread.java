@@ -32,7 +32,7 @@ public class ClientThread extends Thread{
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.out.println("종료되었습니다");
 		} finally {
 			if(socket != null && socket.isClosed() == false) {
 				try {
